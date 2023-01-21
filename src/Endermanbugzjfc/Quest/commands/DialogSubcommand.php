@@ -2,16 +2,16 @@
 
 namespace Endermanbugzjfc\Quest\commands;
 
-use _981737705958557dda85CortexPE\Commando\args\RawStringArgument;
-use _981737705958557dda85CortexPE\Commando\BaseSubCommand;
-use _981737705958557dda85CortexPE\Commando\exception\ArgumentOrderException;
+use CortexPE\Commando\args\RawStringArgument;
+use CortexPE\Commando\BaseSubCommand;
+use CortexPE\Commando\exception\ArgumentOrderException;
 use Endermanbugzjfc\Quest\player\PlayerSession;
 use Endermanbugzjfc\Quest\Quest;
 use pocketmine\command\CommandSender;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\Server;
 use RuntimeException;
-use _84cd9599c7b9e93885c2SOFe\AwaitStd\Await;
+use SOFe\AwaitStd\Await;
 use function array_values;
 use function count;
 
