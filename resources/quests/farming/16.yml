@@ -1,0 +1,6 @@
+name: Congratulation! You had completed all farming quests.
+dialog:
+  title: Farmer
+  content:
+    |-
+    Congratulation! You had completed my quests.

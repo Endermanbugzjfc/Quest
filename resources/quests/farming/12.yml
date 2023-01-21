@@ -1,0 +1,19 @@
+name: Harvest 100 carrots and potatoes
+dialog:
+  title: Farmer
+  content:
+    |-
+    Harvest 100 carrots, 100 potatoes and come back.
+  buttons:
+    - label: Claim
+      quest:button_remove: [ ]
+task:
+  # quest:collect = Remove the item once obtain
+  quest:obtain:
+    minecraft:carrot:
+      amount: 100
+    minecraft:potato:
+      amount: 100
+reward:
+  quest:commands:
+    - givemoney {player} 5000

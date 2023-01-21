@@ -1,0 +1,74 @@
+{
+	"_84cd9599c7b9e93885c2SOFe\\AwaitStd": {
+		"name": "await-std",
+		"author": "SOFe",
+		"antigen": "SOFe\\AwaitStd",
+		"version": "0.2.0",
+		"api": ["4.0.0"],
+		"build": {
+			"builder": "PoggitCI\/1.0-beta\/beta poggit-virion\/1.0",
+			"builderName": "poggit",
+			"buildTime": "2022-01-30T04:25:40+00:00",
+			"poggitBuildId": 122235,
+			"buildClass": "Dev",
+			"projectId": 6900,
+			"projectBuildNumber": 20,
+			"fromCommit": "f94ca074a21c2d76de31301e48e9295e45e9e58f",
+			"poggitResourceId": 159094
+		}
+	},
+	"_445cc328523529c871adpoggit\\libasynql": {
+		"name": "libasynql",
+		"authors": ["SOFe"],
+		"antigen": "poggit\\libasynql",
+		"version": "4.0.1",
+		"api": ["4.0.0"],
+		"build": {
+			"builder": "PoggitCI\/1.0-beta\/beta poggit-virion\/1.0",
+			"builderName": "poggit",
+			"buildTime": "2022-01-09T05:11:09+00:00",
+			"poggitBuildId": 120483,
+			"buildClass": "Dev",
+			"projectId": 287,
+			"projectBuildNumber": 172,
+			"fromCommit": "bf80477f0ea35143f3414eaf85cc6a29e72da707",
+			"poggitResourceId": 156244
+		}
+	},
+	"_981737705958557dda85CortexPE\\Commando": {
+		"name": "Commando",
+		"antigen": "CortexPE\\Commando",
+		"api": "4.0.0",
+		"version": "3.0.0",
+		"author": "CortexPE",
+		"build": {
+			"builder": "PoggitCI\/1.0-beta\/beta poggit-virion\/1.0",
+			"builderName": "poggit",
+			"buildTime": "2021-11-21T08:13:38+00:00",
+			"poggitBuildId": 115789,
+			"buildClass": "Dev",
+			"projectId": 5074,
+			"projectBuildNumber": 43,
+			"fromCommit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+			"poggitResourceId": 148280
+		}
+	},
+	"_1cf7da649ebdaa27fef8ref\\libNpcDialogue": {
+		"name": "libNpcDialogue",
+		"author": "refTeam",
+		"antigen": "ref\\libNpcDialogue",
+		"version": "1.0.0",
+		"api": "4.0.0",
+		"build": {
+			"builder": "PoggitCI\/1.0-beta\/beta poggit-virion\/1.0",
+			"builderName": "poggit",
+			"buildTime": "2021-12-19T12:43:32+00:00",
+			"poggitBuildId": 118734,
+			"buildClass": "Dev",
+			"projectId": 10166,
+			"projectBuildNumber": 1,
+			"fromCommit": "d4afef8ac3be2835b6ee2c9f551e9ae00c65ac2d",
+			"poggitResourceId": 153220
+		}
+	}
+}

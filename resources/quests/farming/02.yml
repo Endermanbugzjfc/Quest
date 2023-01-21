@@ -1,0 +1,26 @@
+name: Plant 30 melon seeds
+dialog:
+  title: Farmer
+  content:
+    |-
+    Plant these 30 melon seeds and come back.
+  buttons: # 6 button slots
+    - label: Claim
+      quest:give_box:
+        - # https://minecraftitemids
+          # &aB&2o&ax &2o&af &2s&ae&2e&ad&2s
+          name: §aB§2o§ax §2o§af §2s§ae§2e§ad§2s
+          icon: minecraft:chest
+          items:
+            minecraft:melon_seeds:
+              amount: 30
+      quest:button_remove: [ ] # Remove this button
+task:
+  quest:interact:
+    minecraft:farmland:
+      item: minecraft:melon_seeds
+      amount: 30
+      progress-message: §ePlanted §a{progress} / 30 §emelons
+reward:
+  quest:commands:
+    - givemoney {player} 5000

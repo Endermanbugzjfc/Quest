@@ -1,0 +1,19 @@
+name: Harvest 1000 melon and pumpkin blocks
+dialog:
+  title: Farmer
+  content:
+    |-
+    Harvest 1000 melon blocks, 1000 pumpkin blocks and come back.
+  buttons:
+    - label: Claim
+      quest:button_remove: [ ]
+task:
+  # quest:collect = Remove the item once obtain
+  quest:obtain:
+    minecraft:melon_block:
+      amount: 1000
+    minecraft:pumpkin:
+      amount: 1000
+reward:
+  quest:commands:
+    - givemoney {player} 5000

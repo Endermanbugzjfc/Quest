@@ -1,0 +1,17 @@
+name: Harvest 100 haybales
+dialog:
+  title: Farmer
+  content:
+    |-
+    Harvest 100 haybales and come back.
+  buttons:
+    - label: Claim
+      quest:button_remove: [ ]
+task:
+  # quest:collect = Remove the item once obtain
+  quest:obtain:
+    minecraft:hay_bale:
+      amount: 100
+reward:
+  quest:commands:
+    - givemoney {player} 5000

@@ -1,0 +1,17 @@
+name: Quest
+author: Endermanbugzjfc
+version: 1.1.0
+api: 4.0.0
+main: Endermanbugzjfc\Quest\Quest
+soft-depends: [ SimpleNPC ]
+
+permissions:
+  quest.quest:
+    description: Allows the player to use the quest command
+    default: true
+  quest.npc:
+    description: Spawn an NPC for a category of quest
+    default: op
+  quest.dialog:
+    description: Open a quest dialog for player
+    default: op
