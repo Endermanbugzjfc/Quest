@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Endermanbugzjfc\Quest;
 
-use _981737705958557dda85CortexPE\Commando\exception\HookAlreadyRegistered;
-use _981737705958557dda85CortexPE\Commando\PacketHooker;
+CortexPE\Commando\exception\HookAlreadyRegistered;
+CortexPE\Commando\PacketHooker;
 use Endermanbugzjfc\Quest\commands\QuestCommand;
 use Endermanbugzjfc\Quest\dialog\action\AssignButtonAction;
 use Endermanbugzjfc\Quest\dialog\action\ButtonRemoveButtonAction;
@@ -16,8 +16,8 @@ use Endermanbugzjfc\Quest\tasks\InteractTask;
 use Endermanbugzjfc\Quest\tasks\ObtainTask;
 use http\Exception\RuntimeException;
 use pocketmine\plugin\PluginBase;
-use _1cf7da649ebdaa27fef8ref\libNpcDialogue\libNpcDialogue;
-use _84cd9599c7b9e93885c2SOFe\AwaitStd\AwaitStd;
+ref\libNpcDialogue\libNpcDialogue;
+SOFe\AwaitStd\AwaitStd;
 use function array_diff;
 use function array_values;
 use function scandir;
