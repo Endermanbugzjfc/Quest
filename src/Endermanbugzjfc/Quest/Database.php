@@ -7,9 +7,9 @@ use pocketmine\event\EventPriority;
 use pocketmine\event\plugin\PluginDisableEvent;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
-poggit\libasynql\DataConnector;
-poggit\libasynql\libasynql;
-SOFe\AwaitStd\Await;
+use _445cc328523529c871adpoggit\libasynql\DataConnector;
+use _445cc328523529c871adpoggit\libasynql\libasynql;
+use _84cd9599c7b9e93885c2SOFe\AwaitStd\Await;
 
 class Database
 {

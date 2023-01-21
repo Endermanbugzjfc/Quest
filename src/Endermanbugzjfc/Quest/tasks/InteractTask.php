@@ -12,8 +12,8 @@ use pocketmine\item\Item;
 use pocketmine\item\ItemBlock;
 use pocketmine\item\StringToItemParser;
 use pocketmine\utils\TextFormat;
-SOFe\AwaitStd\Await;
-SOFe\AwaitStd\DisposeException;
+use _84cd9599c7b9e93885c2SOFe\AwaitStd\Await;
+use _84cd9599c7b9e93885c2SOFe\AwaitStd\DisposeException;
 use function implode;
 use function spl_object_id;
 

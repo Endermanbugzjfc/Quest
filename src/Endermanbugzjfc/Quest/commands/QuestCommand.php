@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Endermanbugzjfc\Quest\commands;
 
-CortexPE\Commando\BaseCommand;
+use _981737705958557dda85CortexPE\Commando\BaseCommand;
 use Endermanbugzjfc\Quest\player\PlayerSession;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;

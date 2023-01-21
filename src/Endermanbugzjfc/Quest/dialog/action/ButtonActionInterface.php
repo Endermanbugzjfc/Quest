@@ -4,7 +4,7 @@ namespace Endermanbugzjfc\Quest\dialog\action;
 
 use Endermanbugzjfc\Quest\player\PlayerSession;
 use Endermanbugzjfc\Quest\QuestInstance;
-ref\libNpcDialogue\form\NpcDialogueButtonData;
+use _1cf7da649ebdaa27fef8ref\libNpcDialogue\form\NpcDialogueButtonData;
 
 interface ButtonActionInterface
 {
