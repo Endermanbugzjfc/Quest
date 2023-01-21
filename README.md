@@ -33,4 +33,4 @@ reward:
 # API
 - [Register](https://github.com/Endermanbugzjfc/Quest/blob/18a61d4c14d73971e5d9248ac76a64bde0452596/src/Endermanbugzjfc/Quest/Quest.php#L83-L87) your [TaskInterface](https://github.com/Endermanbugzjfc/Quest/blob/master/src/Endermanbugzjfc/Quest/tasks/TaskInterface.php) to add custom tasks.
 # Potential problems
-- The popping text of NPC dialogue might bloat the server network and lag players. There is currently NO interface to disable the popping text.
+- The popping text of NPC dialogue might bloat the server network and lag players. There is currently NO interface to disable the popping text. (But a "Skip" button is provided to players.)
