@@ -22,11 +22,14 @@ class QuestCommand extends BaseCommand
     protected function prepare() : void
     {
         $this->setPermission("quest.quest");
+        $pl = $this->getPlugin();
         $this->registerSubCommand(new NPCSubcommand(
+            $pl,
             "npc",
             "Spawn an NPC for a category of quest",
         ));
         $this->registerSubCommand(new DialogSubcommand(
+            $pl,
             "dialog",
             "Spawn an NPC for a category of quest",
         ));
