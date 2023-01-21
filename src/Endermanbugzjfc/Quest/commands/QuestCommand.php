@@ -22,7 +22,7 @@ class QuestCommand extends BaseCommand
     protected function prepare() : void
     {
         $this->setPermission("quest.quest");
-        $pl = $this->getPlugin();
+        $pl = $this->getOwningPlugin();
         $this->registerSubCommand(new NPCSubcommand(
             $pl,
             "npc",
