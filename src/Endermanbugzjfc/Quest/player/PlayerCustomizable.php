@@ -7,7 +7,7 @@ use pocketmine\event\EventPriority;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\utils\TextFormat;
 use poggit\libasynql\SqlError;
-use SOFe\AwaitStd\Await;
+use SOFe\AwaitGenerator\Await;
 use SOFe\AwaitStd\DisposeException;
 use Throwable;
 use function count;

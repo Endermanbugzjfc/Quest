@@ -9,7 +9,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use poggit\libasynql\DataConnector;
 use poggit\libasynql\libasynql;
-use SOFe\AwaitStd\Await;
+use SOFe\AwaitGenerator\Await;
 
 class Database
 {
