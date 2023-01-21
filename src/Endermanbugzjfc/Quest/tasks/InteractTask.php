@@ -12,7 +12,7 @@ use pocketmine\item\Item;
 use pocketmine\item\ItemBlock;
 use pocketmine\item\StringToItemParser;
 use pocketmine\utils\TextFormat;
-use SOFe\AwaitGenerator\Await;
+use SOFe\AwaitStd\Await;
 use SOFe\AwaitStd\DisposeException;
 use function implode;
 use function spl_object_id;

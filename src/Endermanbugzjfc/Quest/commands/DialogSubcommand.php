@@ -11,7 +11,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\Server;
 use RuntimeException;
-use SOFe\AwaitGenerator\Await;
+use SOFe\AwaitStd\Await;
 use function array_values;
 use function count;
 

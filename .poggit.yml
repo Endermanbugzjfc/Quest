@@ -6,8 +6,6 @@ projects:
   Quest:
     path: ""
     libs:
-    - src: SOF3/await-generator/await-generator
-      version: ^3.4.3
     - src: SOF3/await-std/await-std
       version: ^0.2.0
     - src: poggit/libasynql/libasynql

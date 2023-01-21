@@ -17,7 +17,7 @@ use Endermanbugzjfc\Quest\tasks\ObtainTask;
 use http\Exception\RuntimeException;
 use pocketmine\plugin\PluginBase;
 use ref\libNpcDialogue\libNpcDialogue;
-use SOFe\AwaitGenerator\AwaitStd;
+use SOFe\AwaitStd\AwaitStd;
 use function array_diff;
 use function array_values;
 use function scandir;
