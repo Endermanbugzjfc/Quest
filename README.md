@@ -6,6 +6,7 @@ Demo video: https://www.youtube.com/watch?v=_aDHyfgpFiE
 - Config-customizable quests.
 - Categorizable quests.
 - NPC dialogue with popping text.
+- Automatically installs SimpleNPC.
 
 ## [Example quest config](https://github.com/Endermanbugzjfc/Quest/blob/18a61d4c14d73971e5d9248ac76a64bde0452596/resources/quests/farming/15.yml)
 ```yaml
