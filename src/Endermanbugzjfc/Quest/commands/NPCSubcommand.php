@@ -14,7 +14,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
 use pocketmine\utils\TextFormat;
 use RuntimeException;
-use SOFe\AwaitStd\Await;
+use SOFe\AwaitGenerator\Await;
 use function array_values;
 use function assert;
 use function class_exists;

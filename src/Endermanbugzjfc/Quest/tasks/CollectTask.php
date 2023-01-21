@@ -10,7 +10,7 @@ use pocketmine\event\EventPriority;
 use pocketmine\event\player\PlayerItemHeldEvent;
 use pocketmine\item\Item;
 use pocketmine\utils\TextFormat;
-use SOFe\AwaitStd\Await;
+use SOFe\AwaitGenerator\Await;
 use function implode;
 use function min;
 use function spl_object_id;

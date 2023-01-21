@@ -26,7 +26,7 @@ use pocketmine\player\Player;
 use pocketmine\plugin\Plugin;
 use poggit\libasynql\SqlError;
 use RuntimeException;
-use SOFe\AwaitStd\Await;
+use SOFe\AwaitGenerator\Await;
 use SOFe\AwaitStd\DisposeException;
 use function bin2hex;
 use function in_array;

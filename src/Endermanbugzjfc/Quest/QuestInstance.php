@@ -17,7 +17,7 @@ use pocketmine\utils\Config;
 use pocketmine\utils\TextFormat;
 use ref\libNpcDialogue\form\NpcDialogueButtonData;
 use ref\libNpcDialogue\NpcDialogue;
-use SOFe\AwaitStd\Await;
+use SOFe\AwaitGenerator\Await;
 use function count;
 use function explode;
 use function is_a;
