@@ -17,3 +17,4 @@ projects:
     - src: DaisukeDaisukeTeam/libNpcDialogue/libNpcDialogue # refteams has never enabled Poggit.
       version: ^1.0.0
 ...
+
