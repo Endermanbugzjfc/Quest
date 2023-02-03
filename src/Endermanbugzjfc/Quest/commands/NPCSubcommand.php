@@ -78,7 +78,7 @@ class NPCSubcommand extends BaseSubCommand
             assert($entity instanceof BaseNPC);
             $entity->setNameTag("/snpc edit $id <Nametag>");
             $entity->getCommandManager()->add(
-                "quest dialog \"{$quest->getCategory()}\" \"{player}\""
+                "quest dialog \"{$quest->getCategory()}\" {player}"
             );
         });
     }
